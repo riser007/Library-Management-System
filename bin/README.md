@@ -1,0 +1,51 @@
+Library Management System
+
+Overview
+
+The Library Management System (LMS) is designed to manage books, patrons, and lending processes efficiently. This project demonstrates the use of Object-Oriented Programming (OOP) principles, adherence to SOLID principles, and implementation of relevant design patterns like Factory and Observer.
+
+Features
+
+Book Management:
+
+Add, remove, and update books in the library inventory.
+
+Search for books by title, author, or ISBN.
+
+Patron Management:
+
+Add new patrons and update their information.
+
+Track patron borrowing history.
+
+Lending Process:
+
+Checkout and return books with real-time availability updates.
+
+Inventory Management:
+
+Keep track of available and borrowed books.
+
+Design Principles and Patterns
+
+OOP Principles:
+
+Encapsulation: Classes like Book and Patron encapsulate their attributes and behavior.
+
+Abstraction: Abstracted the complexities of inventory and lending management into reusable classes.
+
+Polymorphism: Extensible design for future expansion (e.g., different lending policies).
+
+SOLID Principles:
+
+Single Responsibility Principle: Each class has a single responsibility (e.g., Book for book attributes, LibraryInventory for inventory management).
+
+Open/Closed Principle: System is open for extension but closed for modification.
+
+Dependency Inversion: High-level modules (like LibraryManagementSystem) depend on abstractions rather than concrete implementations.
+
+Design Patterns:
+
+Factory Pattern: Used for creating Book and Patron objects dynamically.
+
+Observer Pattern (Planned): Notify patrons when a book becomes available.
